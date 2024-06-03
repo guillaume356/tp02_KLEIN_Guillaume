@@ -1,0 +1,4 @@
+<app-header></app-header>
+<app-body (formSubmitted)="handleFormSubmission($event)"></app-body>
+<app-recapitulatif *ngIf="formSubmitted"></app-recapitulatif>
+<app-footer></app-footer>
